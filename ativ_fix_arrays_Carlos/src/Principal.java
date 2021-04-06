@@ -16,6 +16,10 @@ public class Principal {
             result += item;
         }
         int media = result / listTemperatura.length;
-        System.out.println("A média das temperaturas é igual a: " + media);
+        System.out.println("Temperaturas obtidas ao longo do mês: \n");
+        for (int i = 0; i < listTemperatura.length; i++) {
+            System.out.println(listTemperatura[i]);
+        }
+        System.out.println("\nA média das temperaturas é igual a: " + media);
     }
 }
