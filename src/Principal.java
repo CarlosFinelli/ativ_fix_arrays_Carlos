@@ -5,11 +5,11 @@ public class Principal {
     public static void main(String[] args) {
         int [] listTemperatura = new int[30];
 
-        System.out.println("Sistema de inserção de temperaturas");
+        System.out.println("Sistema de inserção de temperaturas\n");
         Random random = new Random();
 
         for (int i = 0; i < listTemperatura.length; i++) {
-            listTemperatura[i] = random.nextInt(30);
+            listTemperatura[i] = random.nextInt(50);
         }
         Integer result = 0;
         for(Integer item : listTemperatura) {
